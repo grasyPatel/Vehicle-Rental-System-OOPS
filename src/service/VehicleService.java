@@ -9,5 +9,9 @@ public class VehicleService {
     }
 
     public void viewAllVehicle() {
+
+    }
+
+    public void viewAvailableVehicles() {
     }
 }
