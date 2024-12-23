@@ -1,10 +1,10 @@
 package model;
 
-public class Vehicle {
+public abstract class Vehicle {
     int id;
     String type;
     String brand;
-    String model;
+    String registrationNumber;
     double rentalPricePerDay;
     boolean available;
 

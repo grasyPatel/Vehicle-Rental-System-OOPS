@@ -7,6 +7,9 @@ public class Truck extends Vehicle {
 
     }
 
+    public Truck(String brand, String registrationNumber, double pricePerDay) {
+    }
+
     public  void displayDetails(){
 
     }

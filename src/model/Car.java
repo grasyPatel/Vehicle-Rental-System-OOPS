@@ -7,6 +7,10 @@ public class Car extends Vehicle {
     public Car(){
 
     }
+
+    public Car(String brand, String registrationNumber, double pricePerDay) {
+    }
+
     public void displayDetails(){
 
     }

@@ -6,6 +6,10 @@ public class Bike extends Vehicle {
     public Bike(){
 
     }
+
+    public Bike(String brand, String registrationNumber, double pricePerDay) {
+    }
+
     public void displayDetails(){
 
     }
