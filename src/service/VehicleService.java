@@ -37,6 +37,17 @@ public class VehicleService {
     }
 
     public void viewAllVehicle() {
+        if(vehicles.isEmpty()){
+            System.out.println("No vehicles Available.");
+
+        }
+        else{
+            System.out.println("List of Vehicles: ");
+            for(Vehicle v:vehicles){
+                System.out.println(v.toString());
+
+            }
+        }
 
     }
 
